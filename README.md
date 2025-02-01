@@ -35,10 +35,11 @@
 </details>
 
 ## Usage
+
 > [!NOTE]
 > The theme does not contain styling for the layout/padding of the highlighted code.
 
-### CSS
+### Remote stylesheet
 
 Include the theme/stylesheet (`https://prismjs.catppuccin.com/<flavor>.css`) in your page. For example:
 
@@ -56,8 +57,7 @@ Include the theme/stylesheet (`https://prismjs.catppuccin.com/<flavor>.css`) in 
 </html>
 ```
 
-### Install locally
-> Note: due to NPM not allowing installations without a package.json, using npm is not supported
+### Local CSS
 ```bash
 # due to prismjs & this repository having the same name, an alias is used 
 yarn add catppuccin-prismjs@https://github.com/catppuccin/prismjs.git
